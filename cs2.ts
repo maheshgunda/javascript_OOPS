@@ -1,6 +1,6 @@
 class Fruits{
 
-    a:string= "Apple"
+    a:string= "Apple" // Global variable
     
     market(){
         let m:string="Banana";
@@ -8,7 +8,7 @@ class Fruits{
     }
 }
  // object creation
-    let f1= new Fruits();
-    console.log(f1.a);
+    let f11= new Fruits();
+    console.log(f11.a);
 
-    f1.market();
+    f11.market();
